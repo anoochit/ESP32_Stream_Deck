@@ -7,5 +7,5 @@ eg; sent media keys to control volume, play/pause music or control your mouse.
 Video
 =====
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F3exsrhTbJY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/F3exsrhTbJY/maxresdefault.jpg)](https://youtu.be/F3exsrhTbJY)
 
