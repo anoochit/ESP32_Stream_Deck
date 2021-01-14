@@ -49,8 +49,7 @@ void loop() {
         //if the old Pin state was LOW and the button pin is HIGH than...
         //send key stroke
         bleKeyboard.press(KEY_LEFT_CTRL);
-        bleKeyboard.press(KEY_LEFT_SHIFT);
-        bleKeyboard.print(1);
+        bleKeyboard.press(KEY_F1);
         delay(100);
         bleKeyboard.releaseAll();
       }
@@ -65,8 +64,7 @@ void loop() {
         //if the old Pin state was LOW and the button pin is HIGH than...
         //send key stroke
         bleKeyboard.press(KEY_LEFT_CTRL);
-        bleKeyboard.press(KEY_LEFT_SHIFT);
-        bleKeyboard.print(2);
+        bleKeyboard.press(KEY_F2);
         delay(100);
         bleKeyboard.releaseAll();
       }
@@ -82,8 +80,7 @@ void loop() {
         //if the old Pin state was LOW and the button pin is HIGH than...
         //send key stroke
         bleKeyboard.press(KEY_LEFT_CTRL);
-        bleKeyboard.press(KEY_LEFT_SHIFT);
-        bleKeyboard.print(3);
+        bleKeyboard.press(KEY_F3);
         delay(100);
         bleKeyboard.releaseAll();
       }
@@ -98,8 +95,7 @@ void loop() {
         //if the old Pin state was LOW and the button pin is HIGH than...
         //send key stroke
         bleKeyboard.press(KEY_LEFT_CTRL);
-        bleKeyboard.press(KEY_LEFT_SHIFT);
-        bleKeyboard.print(4);
+        bleKeyboard.press(KEY_F4);
         delay(100);
         bleKeyboard.releaseAll();
       }
@@ -114,8 +110,7 @@ void loop() {
         //if the old Pin state was LOW and the button pin is HIGH than...
         //send key stroke
         bleKeyboard.press(KEY_LEFT_CTRL);
-        bleKeyboard.press(KEY_LEFT_SHIFT);
-        bleKeyboard.print(5);
+        bleKeyboard.press(KEY_F5);
         delay(100);
         bleKeyboard.releaseAll();
       }
@@ -130,8 +125,7 @@ void loop() {
         //if the old Pin state was LOW and the button pin is HIGH than...
         //send key stroke
         bleKeyboard.press(KEY_LEFT_CTRL);
-        bleKeyboard.press(KEY_LEFT_SHIFT);
-        bleKeyboard.print(6);
+        bleKeyboard.press(KEY_F6);
         delay(100);
         bleKeyboard.releaseAll();
       }
@@ -146,8 +140,7 @@ void loop() {
         //if the old Pin state was LOW and the button pin is HIGH than...
         //send key stroke
         bleKeyboard.press(KEY_LEFT_CTRL);
-        bleKeyboard.press(KEY_LEFT_SHIFT);
-        bleKeyboard.print(7);
+        bleKeyboard.press(KEY_F7);
         delay(100);
         bleKeyboard.releaseAll();
       }
@@ -162,8 +155,7 @@ void loop() {
         //if the old Pin state was LOW and the button pin is HIGH than...
         //send key stroke
         bleKeyboard.press(KEY_LEFT_CTRL);
-        bleKeyboard.press(KEY_LEFT_SHIFT);
-        bleKeyboard.print(8);
+        bleKeyboard.press(KEY_F8);
         delay(100);
         bleKeyboard.releaseAll();
       }
