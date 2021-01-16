@@ -1,6 +1,6 @@
 #include <BleKeyboard.h>
 //Se the name of the bluetooth keyboard (that shows up in the bluetooth menu of your device)
-BleKeyboard bleKeyboard("STEEMDEK");
+BleKeyboard bleKeyboard("STEEMDEX");
 
 const int buttonPin01 = 18;
 const int buttonPin02 = 22;
@@ -48,8 +48,10 @@ void loop() {
       if (oldPinState01 == LOW) {
         //if the old Pin state was LOW and the button pin is HIGH than...
         //send key stroke
-        bleKeyboard.press(KEY_LEFT_CTRL);
+        //bleKeyboard.press(KEY_LEFT_CTRL);
+        bleKeyboard.press(KEY_LEFT_ALT);
         bleKeyboard.press(KEY_F1);
+        Serial.println("Button 1 pressed");
         delay(100);
         bleKeyboard.releaseAll();
       }
@@ -63,8 +65,10 @@ void loop() {
       if (oldPinState02 == LOW) {
         //if the old Pin state was LOW and the button pin is HIGH than...
         //send key stroke
-        bleKeyboard.press(KEY_LEFT_CTRL);
+        //bleKeyboard.press(KEY_LEFT_CTRL);
+        bleKeyboard.press(KEY_LEFT_ALT);
         bleKeyboard.press(KEY_F2);
+        Serial.println("Button 2 pressed");
         delay(100);
         bleKeyboard.releaseAll();
       }
@@ -79,8 +83,10 @@ void loop() {
       if (oldPinState03 == LOW) {
         //if the old Pin state was LOW and the button pin is HIGH than...
         //send key stroke
-        bleKeyboard.press(KEY_LEFT_CTRL);
+        //bleKeyboard.press(KEY_LEFT_CTRL);
+        bleKeyboard.press(KEY_LEFT_ALT);
         bleKeyboard.press(KEY_F3);
+        Serial.println("Button 3 pressed");
         delay(100);
         bleKeyboard.releaseAll();
       }
@@ -94,8 +100,10 @@ void loop() {
       if (oldPinState04 == LOW) {
         //if the old Pin state was LOW and the button pin is HIGH than...
         //send key stroke
-        bleKeyboard.press(KEY_LEFT_CTRL);
-        bleKeyboard.press(KEY_F4);
+        //bleKeyboard.press(KEY_LEFT_CTRL);
+        bleKeyboard.press(KEY_LEFT_ALT);
+        bleKeyboard.press(KEY_F9);
+        Serial.println("Button 4 pressed");
         delay(100);
         bleKeyboard.releaseAll();
       }
@@ -109,8 +117,10 @@ void loop() {
       if (oldPinState05 == LOW) {
         //if the old Pin state was LOW and the button pin is HIGH than...
         //send key stroke
-        bleKeyboard.press(KEY_LEFT_CTRL);
+       // bleKeyboard.press(KEY_LEFT_CTRL);
+        bleKeyboard.press(KEY_LEFT_ALT);
         bleKeyboard.press(KEY_F5);
+        Serial.println("Button 5 pressed");
         delay(100);
         bleKeyboard.releaseAll();
       }
@@ -124,8 +134,10 @@ void loop() {
       if (oldPinState06 == LOW) {
         //if the old Pin state was LOW and the button pin is HIGH than...
         //send key stroke
-        bleKeyboard.press(KEY_LEFT_CTRL);
+        //bleKeyboard.press(KEY_LEFT_CTRL);
+        bleKeyboard.press(KEY_LEFT_ALT);
         bleKeyboard.press(KEY_F6);
+        Serial.println("Button 6 pressed");
         delay(100);
         bleKeyboard.releaseAll();
       }
@@ -139,8 +151,10 @@ void loop() {
       if (oldPinState07 == LOW) {
         //if the old Pin state was LOW and the button pin is HIGH than...
         //send key stroke
-        bleKeyboard.press(KEY_LEFT_CTRL);
-        bleKeyboard.press(KEY_F7);
+        //bleKeyboard.press(KEY_LEFT_CTRL);
+        bleKeyboard.press(KEY_LEFT_ALT);
+        bleKeyboard.press(KEY_F11);
+        Serial.println("Button 7 pressed");
         delay(100);
         bleKeyboard.releaseAll();
       }
@@ -154,8 +168,10 @@ void loop() {
       if (oldPinState08 == LOW) {
         //if the old Pin state was LOW and the button pin is HIGH than...
         //send key stroke
-        bleKeyboard.press(KEY_LEFT_CTRL);
+        //bleKeyboard.press(KEY_LEFT_CTRL);
+        bleKeyboard.press(KEY_LEFT_ALT);
         bleKeyboard.press(KEY_F8);
+        Serial.println("Button 8 pressed");
         delay(100);
         bleKeyboard.releaseAll();
       }
@@ -164,5 +180,5 @@ void loop() {
       oldPinState08 = LOW;
     }
   }
-  delay(10);
+  delay(50);
 }
